@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-random-quote-generator/static/css/main.e6b3e462.css",
+    "main.js": "/react-random-quote-generator/static/js/main.267d1887.js",
+    "index.html": "/react-random-quote-generator/index.html",
+    "main.e6b3e462.css.map": "/react-random-quote-generator/static/css/main.e6b3e462.css.map",
+    "main.267d1887.js.map": "/react-random-quote-generator/static/js/main.267d1887.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6b3e462.css",
+    "static/js/main.267d1887.js"
+  ]
+}
