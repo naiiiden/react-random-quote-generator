@@ -8,19 +8,18 @@ const App = () => {
     fetch("https://api.quotable.io/random")
       .then(res => res.json())
       .then(data => setQuote(data))
-      console.log(quote);
   }
 
-  React.useEffect(() => {
+  useEffect(() => {
     getRandomQuote();
   }, []);
 
   return (
-    <div className="App">
-      <p>{quote.content}</p>
-      <p>{quote.author}</p>
+    <figure className="App">
+      <blockquote>{quote.content}</blockquote>
+      <figcaption>&mdash; {quote.author}</figcaption>
       <button onClick={getRandomQuote}>Click</button>
-    </div>
+    </figure>
   );
 }
 
