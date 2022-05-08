@@ -6,8 +6,38 @@
     box-sizing: border-box;
 }
 
-body, .App {
+body {
     width: 100%;
     min-height: 100vh;
     font-family: Poppins, sans-serif;
+    display: grid;
+    place-content: center;
+    
+    figure {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+        justify-content: center;
+
+        blockquote {
+            font-size: 18px;
+        }
+
+        figcaption {
+            color: rgb(99, 99, 99);
+        }
+
+        button {
+            align-self: center;
+            background: #004dcf;
+            color: #fff;
+            font-family: inherit;
+            border: none;
+            padding: .5rem;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+    }
 }

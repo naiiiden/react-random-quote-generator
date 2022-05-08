@@ -6,9 +6,49 @@
           box-sizing: border-box;
 }
 
-body, .App {
+body {
   width: 100%;
   min-height: 100vh;
   font-family: Poppins, sans-serif;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+body figure {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .75rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body figure blockquote {
+  font-size: 18px;
+}
+
+body figure figcaption {
+  color: #636363;
+}
+
+body figure button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background: #004dcf;
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  padding: .5rem;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

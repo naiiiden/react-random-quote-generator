@@ -17,8 +17,8 @@ const App = () => {
   return (
     <figure className="App">
       <blockquote>{quote.content}</blockquote>
-      <figcaption>&mdash; {quote.author}</figcaption>
-      <button onClick={getRandomQuote}>Click</button>
+      <figcaption><i>&mdash; {quote.author}</i></figcaption>
+      <button onClick={getRandomQuote} aria-label="Get a new quote">New Quote</button>
     </figure>
   );
 }
