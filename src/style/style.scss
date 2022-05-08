@@ -41,3 +41,24 @@ body {
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        figure {
+            width: 500px;
+            gap: 1rem;
+            
+            blockquote {
+                font-size: 20px;
+            }
+
+            figcaption {
+                font-size: 16px;
+            }
+
+            button {
+                padding: .5rem;
+            }
+        }
+    }
+}
